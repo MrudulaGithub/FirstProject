@@ -28,9 +28,12 @@ class BankAccount(object):
             self.show_balance()
 
 my_account = BankAccount("Mrudula")
+
 print my_account
 my_account.show_balance()
-my_account.deposit(1000)
-my_account.withdraw(500)
+# deposit
+my_account.deposit(5000)
+# withdraw function
+my_account.withdraw(600)
 print my_account
 
